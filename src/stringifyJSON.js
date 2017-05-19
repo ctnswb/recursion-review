@@ -4,7 +4,6 @@
 // but you don't so you're going to write it from scratch:
 
 var stringifyJSON = function(obj) {
-  // numbers
   if (obj === null) {
     return "null";
   } else if (typeof obj === 'string') {
